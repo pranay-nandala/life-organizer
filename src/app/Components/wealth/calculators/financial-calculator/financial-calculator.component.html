@@ -1,0 +1,41 @@
+<ons-toolbar>
+  <div class="left">
+    <ons-back-button>Back</ons-back-button>
+  </div>
+  <div class="center">Welcome to EMI Calucalator</div>
+</ons-toolbar>
+<div class="background"></div>
+<div class="normal-page">
+  <ons-card>
+      <ons-row>
+        <ons-col>
+          <ons-input class="text-input" placeholder="Loan Amount" [(value)]="LoanAmount"
+            type="number" required></ons-input>
+        </ons-col>
+        <ons-col>
+          <ons-input class="text-input" placeholder="Interest Rate" [(value)]="InterestRate"
+            type="number" required></ons-input>
+        </ons-col>
+        <ons-col>
+          <ons-input class="text-input" placeholder="No.Of Months" [(value)]="NoOfMonths"
+            type="number" required></ons-input>
+        </ons-col>
+      </ons-row>
+      <ons-row>
+        <ons-col>
+          
+        </ons-col>
+        <ons-col>
+          <button class="button button--material--flat" (click)="EmiCalculation()">Calculate</button>
+          <button class="button button--material--flat" (click)="onClear()">Clear</button>
+        </ons-col>
+      </ons-row>
+      <ons-row>
+        <div *ngIf="showCalculatedResult">
+          <ons-col>
+            <label>EMI Amount is: {{CalculatedEMIAmount}}</label>
+          </ons-col>
+        </div>
+      </ons-row>
+  </ons-card>
+</div>

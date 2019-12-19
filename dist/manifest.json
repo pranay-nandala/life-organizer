@@ -1,0 +1,113 @@
+{
+    "dir": "ltr",
+    "lang": "English",
+    "name": "Life Organizer",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://competent-hawking-0ee963.netlify.com/",
+    "short_name": "Life Organizer",
+    "theme_color": "transparent",
+    "description": "Simple tool for everything",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/assets/7f7559dc-1cc5-d0d1-4eed-7adde5feccbf.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/c61b7642-eca9-f877-5686-ae60b9df0026.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/feca4f61-3815-4164-49ab-a8b321750f8c.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/7a8d28fd-7cbb-e178-2c8a-85f5c6e42bcb.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/960e4ccb-9e82-1a9a-8e35-b1e78c888a72.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/1c04ebbb-89ba-0637-9463-ab1edb1a885b.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/9c1a8690-a8d9-9b0b-3bd8-05ad44390293.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/93887502-1b76-195f-ef49-4e9a9bc87370.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/eb1bc460-5886-bcfa-ff62-2459d06869f4.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/a6f6b23f-fa38-c118-4bba-3defad8fb150.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/c102164c-0550-6b27-da34-1c696d6386ee.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/50ea2561-7364-600e-9567-8ff6644ec185.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/5627beb5-b585-b721-36c2-8dea16bc6ffa.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/8a82253f-ef99-a3bd-c9cb-1e14f0f7b368.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/fbdbc1ff-c3be-a59d-f0f4-8e38a399bf66.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/630fea54-ab78-5715-ed08-69b8ba743e96.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/5ef17d59-8210-1029-c543-630cce4730c8.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/25081859-6ed3-9ae9-d9a0-ef0b9f2fa708.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/4f15ae06-b66a-3c54-34d7-4d646546b7e1.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": []
+}

@@ -1,0 +1,19 @@
+<!-- <ons-toolbar>
+  <div class="center">
+    <ons-segment #segment id="segment" (click)="onSegementSelection(segment.getActiveButtonIndex())" style="width: 280px; margin-top: 8px;">
+      <button>Health</button>
+      <button>Wealth</button>
+      <button>Spiritual</button>
+    </ons-segment>
+  </div>
+</ons-toolbar>
+<div class="background"></div>
+<ons-navigator  swipeable="true" [page]="page"></ons-navigator> -->
+<ons-tabbar swipable="true" position="top" tab-border="true">
+  <div class="tabbar__content"></div>
+  <div class="tabbar">
+    <ons-tab label="Health" [page]="tab1"></ons-tab>
+    <ons-tab label="Wealth" [page]="tab2" active></ons-tab>
+    <ons-tab label="Spirituality" [page]="tab3"></ons-tab>
+  </div>
+</ons-tabbar>
