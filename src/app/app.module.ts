@@ -10,7 +10,6 @@ import { SpiritualComponent } from './Components/spiritual/spiritual.component';
 import { FinancialCalculatorComponent } from './Components/wealth/calculators/financial-calculator/financial-calculator.component';
 import { WealthDivisionsComponent } from './Components/wealth/wealth-divisions/wealth-divisions.component';
 import { CalculatorsComponent } from './Components/wealth/calculators/calculators.component';
-import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +19,7 @@ import { HomeComponent } from './home/home.component';
     SpiritualComponent,
     FinancialCalculatorComponent,
     WealthDivisionsComponent,
-    CalculatorsComponent,
-    HomeComponent
+    CalculatorsComponent
   ],
   entryComponents: [
     HealthComponent,
@@ -29,8 +27,7 @@ import { HomeComponent } from './home/home.component';
     SpiritualComponent,
     FinancialCalculatorComponent,
     WealthDivisionsComponent,
-    CalculatorsComponent,
-    HomeComponent
+    CalculatorsComponent
   ],
   schemas:[
     CUSTOM_ELEMENTS_SCHEMA
