@@ -7,16 +7,29 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'Ubuntu-16.04'
+
 
 steps:
-- task: NodeTool@0
+- task: Npm@1
   inputs:
-    versionSpec: '10.x'
-  displayName: 'Install Node.js'
+    command: 'install'
+    workingDir: '../'
 
-- script: |
-    npm install -g @angular/cli
-    npm install
-    ng build --prod
-  displayName: 'npm install and build'
+- task: ArchiveFiles@2
+  displayName: Zip Site
+  inputs:
+    rootFolderOrFile: '$(Agent.BuildDirectory)/s/output' 
+    includeRootFolder: true
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip' 
+    replaceExistingArchive: true
+
+# - script:  >-
+#       curl
+#       -H 'Authorization: Bearer $(netlifyAccessToken)' 
+#       -H 'Content-Type: application/zip'
+#       --data-binary '@$(Build.BuildId).zip'
+#       https://api.netlify.com/api/v1/sites/$(netlifySiteId)/deploys
+#   workingDirectory: '$(Build.ArtifactStagingDirectory)'
+#   displayName: 'Upload to Netlify'
