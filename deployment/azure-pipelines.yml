@@ -15,15 +15,13 @@ steps:
   inputs:
     command: 'install'
     workingDir: '../'
-
-- task: ArchiveFiles@2
-  displayName: Zip Site
+- task: Npm@1
   inputs:
-    rootFolderOrFile: '$(Agent.BuildDirectory)/s/output' 
-    includeRootFolder: true
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip' 
-    replaceExistingArchive: true
+    command: 'custom'
+    workingDir: '../'
+    customCommand: 'build --prod'
+    customRegistry: 'useFeed'
+    customFeed: 'b876ce2c-0e39-45d3-b649-13dc000e4211'
 
 # - script:  >-
 #       curl
